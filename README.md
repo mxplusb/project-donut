@@ -1,4 +1,6 @@
-# project-donut
+# Project Donut
+
+:doughnut:
 
 Bringing the Windows ecosystem to Pivotal's Cloud Foundry, one feature at a time.
 
@@ -13,4 +15,4 @@ Bringing the Windows ecosystem to Pivotal's Cloud Foundry, one feature at a time
 
 ### Note
 
-`repo` is designed to use Gerrit, and thus it uses cherry-picking commits back into `master`. When you run `repo sync` on an existing workspace, it will overwrite (or fail, depending) your local changes not in the master branch. If you aren't interested in Gerrit (which is fair, I like it), then just run `repo sync PROJECT_NAME` to update that project.
+`repo` is designed to use Gerrit, and thus it uses cherry-picking commits back into `master`. When you run `repo sync` on an existing workspace, it will overwrite (or fail, depending) your local changes not in the master branch. If you aren't interested in Gerrit (which is fair, I like it), then just run `repo sync -n`, which just fetches changes; merging is then on you as a user.
