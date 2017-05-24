@@ -15,4 +15,5 @@ Bringing the Windows ecosystem to Pivotal's Cloud Foundry, one feature at a time
 
 ### Note
 
-`repo` is designed to use Gerrit, and thus it uses cherry-picking commits back into `master`. When you run `repo sync` on an existing workspace, it will overwrite (or fail, depending) your local changes not in the master branch. If you aren't interested in Gerrit (which is fair, I like it), then just run `repo sync -n`, which just fetches changes; merging is then on you as a user.
+`repo` is designed to use Gerrit, and thus it uses cherry-picking commits back into `master`. When you run `repo sync` on an existing workspace, it will overwrite (or fail, depending) your local changes not in the master branch. I would highly recommend reading the `repo` help documents to find a strategy which works for you if you do not want to use Gerrit. This manifest is not configured for Gerrit, but I am open to it due to time constraints on a distributed team. Or we can just extend repo to use Github as the review platform. Either works for me. :D
+
