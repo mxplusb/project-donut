@@ -10,6 +10,6 @@ Your sources have been sync'd successfully.
 
   <project path="build/hwc" name="mxplusb/hwc" remote="origin" />
   <project path="build/dotnet-hwc" name="mxplusb/dotnet-hwc" remote="origin" />
-  <project path="build/hwc-buildpack" remote="cros" name="mxplusb/hwc-buildpack" />
+  <project path="build/hwc-buildpack" name="mxplusb/hwc-buildpack" remote="origin" />
 
 </manifest>
