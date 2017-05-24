@@ -7,7 +7,7 @@ Bringing the Windows ecosystem to Pivotal's Cloud Foundry, one feature at a time
 ### To use:
 
 1. [Install `repo`](https://source.android.com/source/downloading)
-1. Make a workspace: `WORKSPACE=/some/path/you/like mkdir $WORKSPACE && pushd $WORKSPACE && repo init -u <raw_master.xml_link>`
+1. Make a workspace: `WORKSPACE=/some/path/you/like mkdir $WORKSPACE && pushd $WORKSPACE && repo init -u https://github.com/mxplusb/project-donut`
 1. Become current: `repo sync`
 1. Make a branch: `repo start NEW_AWESOME_WINDOWS_INTEGRATION PROJECT_NAME` <- `PROJECT_NAME` is the repo you want to make changes to.
 1. Start working in whichever project you need.
